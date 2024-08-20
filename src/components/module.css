@@ -1,0 +1,186 @@
+body {
+    padding-top: 57px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    padding: 10px;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.flexClass {
+    display: flex;
+}
+.alignCenter {
+    align-items:center;
+}
+.rowClass {
+    padding: 0 20px;
+}
+.rowClass.flexClass.rowHeader {
+    justify-content: space-between;
+}
+.logo {
+    width: 100%;
+    max-width: 125px;
+}
+img {
+    width: 100%;
+    object-position: center;
+}
+header button {
+    background: red;
+    color: #fff
+}
+header button {
+    background: red;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+a.btnLink {
+    color: #fff !important;
+    text-decoration: none !important;
+    background: red;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+.login {
+    display: flex;
+    gap: 10px;
+}
+.gridCols {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+}
+footer {
+    padding: 50px 20px 30px;
+}
+footer p {
+    color: #737373;
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+}
+.movieList {
+    background: #2b2b2b;
+}
+.movieList img {
+    object-fit: contain;
+    height: 530px;
+}
+p.rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+p.rating img {
+    max-width: 17px;
+    height: auto;
+}
+p.like {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+p.like img {
+    height: auto;
+    width: 22px;
+}
+.movieDetails {
+    padding: 15px;
+}
+.rowMovieDetails {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.rowMovieDetails:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    background: linear-gradient(to right, black, transparent);
+}
+.rowMovieDetails .col {
+    position: relative;
+    width:100%;
+    max-width:800px;
+}
+.rowMovieDetails h1 {
+    font-size: 90px;
+    margin-bottom:20px
+}
+p.overview {
+    font-size: 30px;
+    line-height: 45px;
+}
+.rowMovieDetails .rating, .rowMovieDetails .like {
+    font-size:20px;
+}
+.castCol {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+}
+img.cast-image {
+    object-fit: contain;
+    height: 280px;
+}
+.hvH {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 162px);
+}
+form.loginForm > div {
+    margin-bottom: 20px;
+}
+form.loginForm > div label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+form.loginForm input {
+    width: 300px;
+    padding: 10px;
+}
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background: red;
+}
+.flexClass.googleIcon {
+    align-items: center;
+    gap: 20px;
+}
+button.flexClass {
+    width: 100%;
+    align-items: center;
+    gap: 12px;
+}
+.flexClass.googleIcon svg {
+    max-width: 26px;
+}
+button.flexClass p {
+    font-size: 20px;
+    margin: 0;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 1430px) {
+    
+}

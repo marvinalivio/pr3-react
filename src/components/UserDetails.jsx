@@ -38,7 +38,6 @@ const UserDetails = () => {
                         userId: currentUser?.uid,  // Ensure currentUser and uid are defined
                         movieId: movie.movie_id,
                         title: movie.original_title,
-                        poster: movie.poster_path,
                         rating: movie.vote_average,
                         overview: movie.overview,
                         voteCount: movie.vote_count,

@@ -10,7 +10,7 @@ const Header = () => {
         <header>
             <div className="container">
                 <div className="rowClass flexClass rowHeader alignCenter">
-                    <div className="logo"><a href="/userDetails"><img src="https://drive.google.com/file/d/184f8YRV-cvCioOAju4Tgn-Of2x4zXzts/view?usp=sharing" alt="flix10" /></a></div>
+                    <div className="logo"><a href="/userDetails"><img src="/flix10_logo.png" alt="flix10" /></a></div>
                     <div className="login">
                     
                     {
